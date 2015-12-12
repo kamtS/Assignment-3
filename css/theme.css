@@ -1,0 +1,205 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 16px;
+     line-height: 1.4;
+     font-family: "Open Sans", Helvetica, Arial, sans-serif;
+     background-color:#f0efef;
+     margin:0px;
+}
+
+/* HEADER & NAV */
+
+header {
+  background-color: #033048;
+  min-height:100px;
+  max-height:140px;
+  color: white;
+  width:100%;
+}
+
+.header {
+  width:90%;
+  text-align:center;
+  margin:auto;
+}
+
+#head-home {
+  margin-left:40px;
+}
+
+nav {
+  margin:10px 40px 20px 20px;
+  font-size:24px;
+  font-weight:600;
+  
+}
+
+.nav li {
+  list-style: none;
+  display: inline;
+  color: #f9e42e;
+  margin: 0px 5px 0px 5px;
+}
+
+/* MAIN CONTENT & ASIDE */
+
+main {
+  padding-left: 40px;
+  padding-right: 40px;
+  width:100%;
+  display:inline-block;
+  color:#033048;
+  margin:auto 40px 40px 40px;
+}
+
+.main {
+  width:80%;
+  margin:auto;
+}
+
+.main-content {
+  max-width:700px;
+  width:65%;
+}
+
+.blog-img {
+  width:100%;
+}
+
+aside {
+  max-width:240px;
+  width: 18%;
+}
+
+h3 {
+  margin-bottom:5px;
+}
+
+p {
+  margin:0px 0px 20px 0px;
+}
+
+.categories {
+  list-style:none;
+  padding:0px;
+  margin:0px 0px 20px 0px;
+}
+
+.blog {
+  color:#606161;
+}
+
+article {
+  border-bottom: solid 1px;
+  border-bottom-width: 80%;
+  border-bottom-color:#606161;
+}
+
+a {
+  text-decoration:none;
+  color:#033048;
+  font-weight:600;
+  font-size:18px;
+}
+
+.ad-space {
+  margin-top:40px;
+}
+
+/* YELLOW DIVIDER (SECTION) */
+
+section {
+  background-color: #f9e42e;
+  max-height: 100px;
+  min-height:100px;
+  margin:0px;
+  padding: 20px;
+}
+
+.button {
+  border-radius: 5px;
+  background-color: #033048;
+  margin: 20px auto 20px auto;
+  width: 25%;
+  min-width:150px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight:600;
+  padding: 0px 10px;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #121212;
+  text-align:center;
+  max-height: 250px;
+  margin:0px;
+  color: white;
+  padding:10px 0px 10px 0px;
+  width:100%;
+}
+
+h2 {
+  margin:0px auto 0px auto;
+  color: #f9e42e;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.social {
+  display:inline-block;
+  list-style:none;
+  padding:0px;
+  margin:20px 10px 10px 10px;
+  min-height:10px;
+  
+}
