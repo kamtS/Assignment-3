@@ -1,0 +1,41 @@
+.main {
+  width:75%;
+}
+
+
+p {
+  width:80%;
+  margin: 20px 10px 30px 10px;
+  font-family: "Open Sans";
+  color:#606161;
+  font-size:24px;
+  font-weight:300;
+}
+
+h1 {
+  font-size:40px;
+  font-weight:600;
+}
+
+/* YELLOW DIVIDER (SECTION) */
+
+section {
+  background-color: #f9e42e;
+  max-height: 100px;
+  min-height:100px;
+  margin:0px;
+  padding: 20px;
+}
+
+.button {
+  border-radius: 5px;
+  background-color: #033048;
+  margin: 20px auto 20px auto;
+  width: 25%;
+  min-width:150px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight:600;
+  padding: 0px 10px;
+}
