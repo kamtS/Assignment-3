@@ -201,10 +201,11 @@ section {
   max-height: 100px;
   min-height:100px;
   margin:0px;
-  padding: 20px;
+  padding: 25px 20px 20px 20px;
+  text-align:center;
 }
 
-.button {
+/*.button {
   border-radius: 5px;
   background-color: #033048;
   margin: 20px auto 20px auto;
@@ -215,6 +216,20 @@ section {
   font-size: 20px;
   font-weight:600;
   padding: 0px 10px;
+}*/
+
+.button1 {
+  background-color:#033048;
+  /*width:25%;*/
+  min-width:150px;
+  max-height:80%;
+  text-align:center;
+  color:white;
+  font-family: "Open Sans";
+  /* font-size:15px; */
+  font-weight:600;
+  margin:auto;
+  border-radius:5px;
 }
 
 /* FOOTER */
